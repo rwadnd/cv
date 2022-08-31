@@ -113,20 +113,20 @@ p {
 
 
 .shahbaaQR {
-  width: 200px;
+  width: 12vw;
   position: absolute;
-  top: 130px;
-  right: 700px;
+  top: 15vh;
+  right: 40vw;
   opacity: 0;
   z-index: -1;
   transition: 0.6s;
 }
 
 .shahbaaQR2 {
-  width: 200px;
+  width: 12%;
   position: absolute;
-  top: 130px;
-  left: 700px;
+  top: 15vh;
+  left: 40vw;
   opacity: 0;
   z-index: -1;
   transition: 0.6s;
@@ -134,13 +134,13 @@ p {
 
 .shahbaa:hover ~ .shahbaaQR {
   opacity: 1;
-  transform: translateX(200px);
+  transform: translateX(14vw);
 
 }
 
 .shahbaa:hover ~ .shahbaaQR2 {
   opacity: 1;
-  transform: translateX(-200px);
+  transform: translateX(-14vw);
 
 }
 
